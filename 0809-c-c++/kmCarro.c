@@ -20,6 +20,8 @@ int main() {
         quilometros -= 75;
     }
     
+
+    
     switch (tipo_carro) {
         case 'V':
             montante_devido = (30 * dias) + (1.20 * quilometros);
