@@ -3,8 +3,9 @@
 # Index
 
 - [Project overview](#id01)
-- [0805-Algorithm](#id02)
-- [0806-C](#id03)
+- [Technologies](#id02)
+- [0805-Algorithm](#id03)
+- [0806-C](#id03.1)
 - [Photos](#id04)
 - [Requirements](#id05)
 - [Improvements](#id06)
@@ -20,9 +21,8 @@ This is a Study web. It is a page to study many sintax and languagues.
 
 <h3>Visit webpage: </h3><a href="">In progress...</a>
 
-## 0805-Algorithm <a name="#id02"></a>
 
-## 0805-Algorithm <a name="#id02"></a>
+## Technologies <a name="#id02"></a>
 
 I've used the follow technologies:<br/>
 
@@ -32,9 +32,21 @@ I've used the follow technologies:<br/>
 <code><img height="20" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"></code>
 <code><img height="20" src="" alt=".Net img"></code>
 
+## 0805-Algorithm <a name="#id03"></a>
+
+- [x] matrix
+- [x] vector
+- [ ] if / else
+
+## 0806-C <a name="#id03"></a>
+
+- [x] int / char / str
+- [x] matrix / vector
+- [x] operators
+- [ ] plus...
 
 
-## Photos <a name="#id04"></a>
+## Photos <a name="#id04">In progress...</a>
 <code><img height="300" width="500" src="" alt="img projects"></code>
 
 
@@ -55,7 +67,8 @@ I've used the follow technologies:<br/>
 
 - [ ] README
 - [ ] UFCDs
-- [ ] 
+- [ ] Webpage
+- [ ] Photo
 
 # Author <a name="id07"></a>
 
