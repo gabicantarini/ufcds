@@ -43,11 +43,17 @@ I've used the follow technologies:<br/>
 
 <br />
 
-- [x] Code editor as your preference (I recommend Visual Studio Code 2022)
+- [x] Code editor as your preference
 - [x] Git
 - [x] Package management Yarn or NPM
 
 <br />
+
+# Improvements <a name="id06"></a>
+
+- [ ] README
+- [ ] UFCDs
+- [ ] 
 
 # Author <a name="id07"></a>
 
