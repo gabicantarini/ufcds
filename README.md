@@ -22,6 +22,8 @@ This is a Study web. It is a page to study many sintax and languagues.
 
 ## 0805-Algorithm <a name="#id02"></a>
 
+## 0805-Algorithm <a name="#id02"></a>
+
 I've used the follow technologies:<br/>
 
 <code><img height="20" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"></code>
