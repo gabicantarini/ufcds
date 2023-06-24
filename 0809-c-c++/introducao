@@ -1,0 +1,41 @@
+Programação em C/C++ Fundamentos
+
+Carga horÃ¡ria: 50 horas
+
+Objectivos: Elaborar programas em linguagem C/C++
+
+ConteÃºdos:
+	Estrutura de um programa em C/C++
+		FunÃ§Ã£o main()
+		Estrutura de um programa
+	Dados em C/C++
+		VariÃ¡veis e constantes
+		Tipos de dados
+		VariÃ¡veis de ponto flutuante
+	A funÃ§Ã£o printf() em C, cout em C++
+		FormataÃ§Ã£o
+		SequÃªncias de escape (\n, \t, \b)
+		Argumentos da funÃ§Ã£o printf
+	Cadeia de caracteres (strings) en entrada de dados 
+		FunÃ§Ã£o scanf() em C, cin em C++
+		Operadores de endereÃ§o em C 
+		FunÃ§Ãµes de manipulaÃ§Ã£o de strings/caracteres (strlen(), getchar(), putchar(), getch()) 
+		Directiva #define
+	Operadores e expressÃµes em C/C++
+		Operadores e expressÃµe aritmÃ©ticas 
+		Operadores de cast
+		Operadores relacionais
+		Operadores lÃ³gicos
+	Estruturas repetitivas (ciclos)
+		Estruturas matriciais
+		CondiÃ§Ãµes de controlo
+	Estruturas de decisÃ£o
+		if, else if, else e switch
+	FunÃ§Ãµes	
+		Estrutura e argumentos de uma funÃ§Ã£o 
+		VariÃ¡veis locais e globais (pÃºblicas)
+		Recursividade
+		Classes de armazenamento
+	Matrizes
+		DeclaraÃ§Ã£o e inicializaÃ§Ã£o de matrizes
+		Matrizes unidimensionais e multidimensionais 
