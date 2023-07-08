@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//Print "1" if x is equal to y, print "2" if x is greater than y, otherwise print "3".
 int main() {
 
     int x = 50;
