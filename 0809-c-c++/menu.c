@@ -40,6 +40,18 @@ void encontrarMaior(int num1, int num2, int num3) {
 }
 
 int main() {
+    int escolha;
+    float nota, valor, percentual;
+    int numero1, numero2, numero3;
+
+    printf("Menu de Escolha:\n");
+    printf("1. Verificar status do aluno\n");
+    printf("2. Calcular desconto\n");
+    printf("3. Verificar se o número é par ou ímpar\n");
+    printf("4. Encontrar o maior número\n");
+    printf("Escolha uma opção (1-4): ");
+    scanf("%d", &escolha);
+
 
 
     return 0;
@@ -49,4 +61,3 @@ int main() {
 
 
 
- 
