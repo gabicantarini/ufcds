@@ -8,10 +8,14 @@ package exemplo9b;
  *
  * @author Gabriela
  */
-public class Forma2D {
-    protected int area;
+public class TrianguloComCor extends Triangulo{
+    private String cor;
     
-    public int ObterArea(){
-        return area;
+    public void DefinirCor(String c){
+        cor = c;        
+    }
+    
+    public String ObterCor(){        
+        return cor;
     }
 }
