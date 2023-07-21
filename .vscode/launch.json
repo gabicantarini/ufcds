@@ -1,7 +1,40 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": []
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Exemplo6_ManipulacaoVariaveis",
+      "request": "launch",
+      "mainClass": "Exemplo6_ManipulacaoVariaveis",
+      "projectName": "ufcds-web_c095a3e3"
+    },
+    {
+      "type": "java",
+      "name": "Exemplo8_If",
+      "request": "launch",
+      "mainClass": "Exemplo8_If",
+      "projectName": "ufcds-web_c095a3e3"
+    },
+    {
+      "name": "(Windows) Launch",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "enter program name, for example ${workspaceFolder}/a.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "console": "externalTerminal"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "console": "externalTerminal",
+      "cwd": "c:/Users/Gabriela/Desktop/Cantarini/Gabriela/2022TI/Formação programação IEFP/ufcds-web/0809-c-c++",
+      "program": "c:/Users/Gabriela/Desktop/Cantarini/Gabriela/2022TI/Formação programação IEFP/ufcds-web/0809-c-c++/build/Debug/outDebug"
+    }
+  ]
 }
