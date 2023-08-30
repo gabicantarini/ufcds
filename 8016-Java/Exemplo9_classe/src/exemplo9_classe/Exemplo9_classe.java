@@ -12,8 +12,7 @@ import veiculos.Bicicleta;
  */
 public class Exemplo9_classe {
 
-       public static void main(String[] args) {
-        
+       public static void main(String[] args) {        
            
         Bicicleta bike1= new Bicicleta();
         bike1.setCor("yellow");
