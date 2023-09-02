@@ -4,7 +4,7 @@
  */
 package exemplo9_classe;
 import veiculos.Bicicleta;
-
+import veiculos.BicicletaComMotor;
 
 /**
  *
@@ -27,7 +27,10 @@ public class Exemplo9_classe {
         System.out.println("A bicicleta 1 tem a cor: "+bike1.cor + ", o número de rodas: " + bike1.numeroDeRodas+ " e o peso: "+bike1.peso+".");
         System.out.println("\n A bicicleta 2 tem a cor: "+bike2.cor + ", o número de rodas: " + bike2.numeroDeRodas+ " e o peso: "+bike2.peso+".");
     
-     
+        BicicletaComMotor bike3=new BicicletaComMotor();
+        bike3.cor = "green";
+        bike3.motor = "Suzuki";
+    
     }
     
 }
