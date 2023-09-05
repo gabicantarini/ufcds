@@ -12,4 +12,10 @@ package veiculos;
 public class BicicletaComMotor extends Bicicleta {
     
     public String motor;
+
+
+    public void MostrarMotor() {
+    
+        System.out.println("O motor é " + motor);
+    }
 }

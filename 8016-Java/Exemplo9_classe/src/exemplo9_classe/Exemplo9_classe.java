@@ -30,6 +30,8 @@ public class Exemplo9_classe {
         BicicletaComMotor bike3=new BicicletaComMotor();
         bike3.cor = "green";
         bike3.motor = "Suzuki";
+        
+        bike3.MostrarMotor();
     
     }
     
