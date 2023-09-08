@@ -25,6 +25,9 @@ public class Nprimo {
             break;           
             
         }
-  
+        if(resto==0)
+            System.out.println("O número indicado não é primo.");
+        else
+            System.out.println("O número indicado é primo.");
     }
 }
