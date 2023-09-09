@@ -18,9 +18,6 @@ public class BicicletaComMotor extends Bicicleta {
     
         System.out.println("O motor é " + motor);
     }
+       
     
-    public void MostrarCor() {
-    
-        System.out.println("A cor da moto é " + cor);
-    }
 }
