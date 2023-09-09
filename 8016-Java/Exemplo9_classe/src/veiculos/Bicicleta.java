@@ -10,8 +10,8 @@ package veiculos;
  */
 public class Bicicleta {
     private String cor;
-    public int numeroDeRodas;
-    public double peso;
+    private int numeroDeRodas;
+    private double peso;
     
     public String ObterCor(){
         return cor;
@@ -20,4 +20,22 @@ public class Bicicleta {
     public void DenifirCor(String c){
         cor=c;
     }
+    
+    public int ObterNumeroDeRodas(){
+        return numeroDeRodas;
+    }
+     
+    public int DefinirNumeroDeRodas(int d){
+        return numeroDeRodas=d;
+    }
+    
+    public double ObterPeso(){
+        return peso;
+    } 
+    
+    public double DefinirPeso(double p){
+        return peso = p;
+    } 
+          
+    
 }
