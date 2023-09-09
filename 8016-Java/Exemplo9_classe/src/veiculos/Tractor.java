@@ -9,5 +9,8 @@ package veiculos;
  * @author Gabriela
  */
 public class Tractor {
-    
+    void MostrarCor(){
+        Bicicleta bike4=new Bicicleta();
+       
+    }
 }

@@ -5,6 +5,7 @@
 package exemplo9_classe;
 import veiculos.Bicicleta;
 import veiculos.BicicletaComMotor;
+import veiculos.Tractor;
 
 /**
  *
@@ -33,6 +34,8 @@ public class Exemplo9_classe {
         
         bike3.MostrarMotor();
         bike3.MostrarCor();
+        
+        bike4.
     
     }
     

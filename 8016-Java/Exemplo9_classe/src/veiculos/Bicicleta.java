@@ -9,7 +9,15 @@ package veiculos;
  * @author Gabriela
  */
 public class Bicicleta {
-    public String cor;
+    private String cor;
     public int numeroDeRodas;
     public double peso;
+    
+    public String ObterCor(){
+        return cor;
+    }
+    
+    public void DenifirCor(String c){
+        cor=c;
+    }
 }
