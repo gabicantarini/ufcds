@@ -36,8 +36,7 @@ public class Exemplo9_classe {
         bike3.motor = "Suzuki";
         
         bike3.MostrarMotor();
-        //bike3.MostrarCor();
-        
+        //bike3.MostrarCor();        
             
     }
     
