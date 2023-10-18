@@ -1,0 +1,12 @@
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\Ex1\bin\Debug\Ex1.exe.config
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\Ex1\bin\Debug\Ex1.exe
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\Ex1\bin\Debug\Ex1.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\Ex1\bin\Debug\Ex1.xml
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\Ex1\obj\Debug\Ex1.vbproj.AssemblyReference.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\Ex1\obj\Debug\Ex1.Form1.resources
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\Ex1\obj\Debug\Ex1.Resources.resources
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\Ex1\obj\Debug\Ex1.vbproj.GenerateResource.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\Ex1\obj\Debug\Ex1.vbproj.CoreCompileInputs.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\Ex1\obj\Debug\Ex1.exe
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\Ex1\obj\Debug\Ex1.xml
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\Ex1\obj\Debug\Ex1.pdb
