@@ -22,6 +22,7 @@ Partial Class Form1
     'Não o modifique usando o editor de códigos.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
@@ -34,6 +35,9 @@ Partial Class Form1
         Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.LabelNotas = New System.Windows.Forms.Label()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.lblDigital = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'DateTimePicker1
@@ -135,11 +139,36 @@ Partial Class Form1
         Me.LabelNotas.TabIndex = 15
         Me.LabelNotas.Text = "Avaliação"
         '
+        'Timer1
+        '
+        Me.Timer1.Interval = 1000
+        '
+        'lblDigital
+        '
+        Me.lblDigital.AutoSize = True
+        Me.lblDigital.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblDigital.Location = New System.Drawing.Point(283, 460)
+        Me.lblDigital.Name = "lblDigital"
+        Me.lblDigital.Size = New System.Drawing.Size(30, 25)
+        Me.lblDigital.TabIndex = 16
+        Me.lblDigital.Text = "..."
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(28, 385)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(107, 13)
+        Me.Label7.TabIndex = 17
+        Me.Label7.Text = "Exemplo Color Dialog"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 494)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.lblDigital)
         Me.Controls.Add(Me.LabelNotas)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.ListBox1)
@@ -170,4 +199,7 @@ Partial Class Form1
     Friend WithEvents ListBox1 As ListBox
     Friend WithEvents Label4 As Label
     Friend WithEvents LabelNotas As Label
+    Friend WithEvents Timer1 As Timer
+    Friend WithEvents lblDigital As Label
+    Friend WithEvents Label7 As Label
 End Class
