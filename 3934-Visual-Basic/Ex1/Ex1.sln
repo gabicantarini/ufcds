@@ -9,6 +9,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Calculadora", "..\Calculado
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DiversosControlosVB", "..\DiversosControlosVB\DiversosControlosVB.vbproj", "{58E7EF50-E040-4820-A931-A9AB9A1CCDE5}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "RadioButton", "..\RadioButton\RadioButton.vbproj", "{8A869984-EA12-4883-B526-7FD7B0016AD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{58E7EF50-E040-4820-A931-A9AB9A1CCDE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58E7EF50-E040-4820-A931-A9AB9A1CCDE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58E7EF50-E040-4820-A931-A9AB9A1CCDE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A869984-EA12-4883-B526-7FD7B0016AD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A869984-EA12-4883-B526-7FD7B0016AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A869984-EA12-4883-B526-7FD7B0016AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A869984-EA12-4883-B526-7FD7B0016AD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
