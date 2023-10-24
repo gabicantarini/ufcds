@@ -43,4 +43,9 @@ Public Class Form1
         Notas = ListBox1.Text
         LabelNotas.Text = ("A Nota avaliada foi: " & vbNewLine & Notas)
     End Sub
+
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        lblDigital.Text = System.DateTime.Now
+
+    End Sub
 End Class
