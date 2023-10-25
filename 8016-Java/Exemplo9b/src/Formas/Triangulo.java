@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package exemplo9b;
+package Formas;
 
 /**
  *
@@ -10,9 +10,14 @@ package exemplo9b;
  */
         
 public class Triangulo extends Forma2D{
-    private int base;
-    private int altura;
+    protected int base;
+    protected int altura;
         
+    @Override
+    public int ObterArea(){
+        return base*altura/10;
+    }
+
     public void DefinirAltura(int a){
         altura = a;
         area = base*altura;
@@ -30,5 +35,6 @@ public class Triangulo extends Forma2D{
     public int ObterBase(){        
         return base;
     }
-
+    
+    
 }

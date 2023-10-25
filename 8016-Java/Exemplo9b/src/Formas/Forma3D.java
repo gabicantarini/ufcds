@@ -2,16 +2,20 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package exemplo9b;
+package Formas;
 
 /**
  *
  * @author Gabriela
  */
-public class Forma2D {
-    protected int area;
+public class Forma3D {
+    private int aresta;
+    public void DefinirAresta(int h){
+        aresta = h;
+        int volume = aresta * aresta * aresta;
+    }
     
-    public int ObterArea(){
-        return area;
+    public int ObterAresta(){
+        return aresta;
     }
 }

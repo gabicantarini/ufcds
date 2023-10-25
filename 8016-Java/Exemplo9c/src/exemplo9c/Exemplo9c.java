@@ -18,8 +18,7 @@ public class Exemplo9c {
     public static void main(String[] args) {
         // TODO code application logic here
         Humano miguel = new Humano();
-        Humano gabriela = new Humano();
-        
+        Humano gabriela = new Humano();        
         miguel.setAltura(165);
         miguel.setPeso(67);
         miguel.setNome("Miguelito");
@@ -48,8 +47,8 @@ public class Exemplo9c {
         System.out.println("O apelido do Alfredo é: " + texto + "; o peso é: " +p+"; a identidade é: : "+doc);
     
         
-        Cliente cl1=new Cliente();
         
+        Cliente cl1 = new Cliente(123456789, "nome", 167, 65, "Miguel");
         cl1.setNome("Cecília");
         cl1.setAltura(23);
         cl1.setPeso(21);
