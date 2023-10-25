@@ -23,6 +23,13 @@ public class Triangulo extends Forma2D{
         area = base*altura;
     }
     
+    public void DefinirBaseAltura(int base, int altura)
+    {
+        base=base;
+        altura=altura;
+        area=base*altura/2;
+    }
+    
     public int ObterAltura(){        
         return altura;
     }
@@ -30,6 +37,7 @@ public class Triangulo extends Forma2D{
     public void DefinirBase(int b){
         base = b;  
         area = base*altura;
+        
     }
     
     public int ObterBase(){        
