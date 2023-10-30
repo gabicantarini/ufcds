@@ -18,14 +18,18 @@ public class Classe_Janela extends javax.swing.JFrame {
         
         Thread gThread =  new Thread(){
             public void run(){
-                int numero=0;
+                int numero=0, aumento=1;
                 while (true)
                 {
-                        numero = numero+1;
+                        numero = numero+aumento;
                         String sNumero=String.valueOf(numero);
                         jLabel1.setText(sNumero);
                         jLabel1.setFont(new java.awt.Font("Dialog", 0, numero));
-                        try {Thread.sleep(100);} catch (InterruptedException ex) {}
+                        if(numero >= 200)
+                            aumento=-1;  
+                        if(numero <= 0)
+                            aumento=+1;
+                        try {Thread.sleep(10);} catch (InterruptedException ex) {}
                         }            
             }
         
