@@ -30,7 +30,7 @@ public class Classe_Janela extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jTextFieldEuros = new javax.swing.JTextField();
-        jTextFieldDolars = new javax.swing.JTextField();
+        jTextFieldDolares = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -52,10 +52,10 @@ public class Classe_Janela extends javax.swing.JFrame {
             }
         });
 
-        jTextFieldDolars.setText("0");
-        jTextFieldDolars.addKeyListener(new java.awt.event.KeyAdapter() {
+        jTextFieldDolares.setText("0");
+        jTextFieldDolares.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
-                jTextFieldDolarsKeyReleased(evt);
+                jTextFieldDolaresKeyReleased(evt);
             }
         });
 
@@ -69,7 +69,7 @@ public class Classe_Janela extends javax.swing.JFrame {
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(4, 4, 4)
-                        .addComponent(jTextFieldDolars, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jTextFieldDolares, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(126, 126, 126))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -92,7 +92,7 @@ public class Classe_Janela extends javax.swing.JFrame {
                 .addGap(49, 49, 49)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel3)
-                    .addComponent(jTextFieldDolars, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jTextFieldDolares, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(80, Short.MAX_VALUE))
         );
 
@@ -104,16 +104,20 @@ public class Classe_Janela extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextFieldEurosActionPerformed
 
     private void jTextFieldEurosKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldEurosKeyReleased
-String s1=jTextFieldEuros.getText();   
-float valor=Float.parseFloat(s1);
-float valor2=valor*1*2.f;// TODO add your handling code here:
+String s1=jTextFieldEuros.getText(); 
+float f1=Float.parseFloat(s1);
+float dolares=f1*1.2f;
+String sDolares=String.valueOf(dolares);
+jTextFieldDolares.setText(sDolares);// TODO add your handling code here:
     }//GEN-LAST:event_jTextFieldEurosKeyReleased
 
-    private void jTextFieldDolarsKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldDolarsKeyReleased
-String s1=jTextFieldDolars.getText();   
-float valor=Float.parseFloat(s1);
-float valor2=valor*1*2.f;        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFieldDolarsKeyReleased
+    private void jTextFieldDolaresKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldDolaresKeyReleased
+String s1=jTextFieldDolares.getText();   
+float f1=Float.parseFloat(s1);
+float euros=f1/1*2.f;  
+String sEuros=String.valueOf(euros);
+jTextFieldEuros.setText(sEuros);// TODO add your handling code here:
+    }//GEN-LAST:event_jTextFieldDolaresKeyReleased
 
     /**
      * @param args the command line arguments
@@ -154,7 +158,7 @@ float valor2=valor*1*2.f;        // TODO add your handling code here:
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JTextField jTextFieldDolars;
+    private javax.swing.JTextField jTextFieldDolares;
     private javax.swing.JTextField jTextFieldEuros;
     // End of variables declaration//GEN-END:variables
 }
