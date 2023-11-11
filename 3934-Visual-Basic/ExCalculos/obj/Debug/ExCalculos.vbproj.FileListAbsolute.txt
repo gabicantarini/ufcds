@@ -1,0 +1,12 @@
+C:\Users\miche\Documents\Educação\Técnico  - Programação\Programação - Alcoitão\3934 - Programação em Visual Basic NET - Kundan Narendra\CODE - 3934\ExCalculos\bin\Debug\ExCalculos.exe.config
+C:\Users\miche\Documents\Educação\Técnico  - Programação\Programação - Alcoitão\3934 - Programação em Visual Basic NET - Kundan Narendra\CODE - 3934\ExCalculos\bin\Debug\ExCalculos.exe
+C:\Users\miche\Documents\Educação\Técnico  - Programação\Programação - Alcoitão\3934 - Programação em Visual Basic NET - Kundan Narendra\CODE - 3934\ExCalculos\bin\Debug\ExCalculos.pdb
+C:\Users\miche\Documents\Educação\Técnico  - Programação\Programação - Alcoitão\3934 - Programação em Visual Basic NET - Kundan Narendra\CODE - 3934\ExCalculos\bin\Debug\ExCalculos.xml
+C:\Users\miche\Documents\Educação\Técnico  - Programação\Programação - Alcoitão\3934 - Programação em Visual Basic NET - Kundan Narendra\CODE - 3934\ExCalculos\obj\Debug\ExCalculos.vbproj.AssemblyReference.cache
+C:\Users\miche\Documents\Educação\Técnico  - Programação\Programação - Alcoitão\3934 - Programação em Visual Basic NET - Kundan Narendra\CODE - 3934\ExCalculos\obj\Debug\ExCalculos.Form1.resources
+C:\Users\miche\Documents\Educação\Técnico  - Programação\Programação - Alcoitão\3934 - Programação em Visual Basic NET - Kundan Narendra\CODE - 3934\ExCalculos\obj\Debug\ExCalculos.Resources.resources
+C:\Users\miche\Documents\Educação\Técnico  - Programação\Programação - Alcoitão\3934 - Programação em Visual Basic NET - Kundan Narendra\CODE - 3934\ExCalculos\obj\Debug\ExCalculos.vbproj.GenerateResource.cache
+C:\Users\miche\Documents\Educação\Técnico  - Programação\Programação - Alcoitão\3934 - Programação em Visual Basic NET - Kundan Narendra\CODE - 3934\ExCalculos\obj\Debug\ExCalculos.vbproj.CoreCompileInputs.cache
+C:\Users\miche\Documents\Educação\Técnico  - Programação\Programação - Alcoitão\3934 - Programação em Visual Basic NET - Kundan Narendra\CODE - 3934\ExCalculos\obj\Debug\ExCalculos.exe
+C:\Users\miche\Documents\Educação\Técnico  - Programação\Programação - Alcoitão\3934 - Programação em Visual Basic NET - Kundan Narendra\CODE - 3934\ExCalculos\obj\Debug\ExCalculos.xml
+C:\Users\miche\Documents\Educação\Técnico  - Programação\Programação - Alcoitão\3934 - Programação em Visual Basic NET - Kundan Narendra\CODE - 3934\ExCalculos\obj\Debug\ExCalculos.pdb
