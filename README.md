@@ -13,9 +13,9 @@
 
 
 
-## Project overview <a name="id01">UFCDs Study Projects</a>
+## Project overview <a name="id01">UFCDs IEFP Projects</a>
 
-This is a Study web. It is a page to study many sintax and languagues. 
+This is a UFCDs-IEFP web. It is a page to study many sintax and languagues. 
 
 
 
@@ -36,7 +36,7 @@ I've used the follow technologies:<br/>
 
 - [x] matrix
 - [x] vector
-- [ ] if / else
+- [x] if / else
 
 ## 0806-C <a name="#id03"></a>
 
