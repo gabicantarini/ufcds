@@ -5,11 +5,11 @@
 - [Project overview](#id01)
 - [Technologies](#id02)
 - [0805-Algorithm](#id03)
-- [0806-C](#id03.1)
-- [Photos](#id04)
-- [Requirements](#id05)
-- [Improvements](#id06)
-- [Author](#id07)
+- [0806-C](#id04)
+- [Photos](#id05)
+- [Requirements](#id30)
+- [Improvements](#id31)
+- [Author](#id32)
 
 
 
@@ -32,7 +32,7 @@ I've used the follow technologies:<br/>
 <code><img height="20" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"></code>
 <code><img height="20" src="" alt=".Net img"></code>
 
-## 0805-Algorithm <a name="#id03">0805-Algorithm</a>
+## 0805-Algorithm <a name="#id03">Algorithm</a>
 
 - [x] Linguagem estruturada
 - [x] Estruturas lógicas
@@ -61,7 +61,7 @@ I've used the follow technologies:<br/>
 - [x] Construção de procedimentos
 - [x] Procedimentos de entrada e saída e chamada de procedimentos
 
-## 0806-C <a name="#id03">0806-C</a>
+## 0806-C <a name="#id04">0806-C</a>
 
 - [x] int / char / str
 - [x] matrix / vector
@@ -123,12 +123,12 @@ strings
 - [x] Leitura e escrita de strings
 
 
-## Photos <a name="#id04">In progress...</a>
+## Photos <a name="">In progress...</a>
 <code><img height="300" width="500" src="" alt="img projects"></code>
 
 
 
-# Requirements <a name="id05"></a>
+# Requirements <a name="id30"></a>
 <p>Compiling info:</p>
 
 
@@ -140,13 +140,13 @@ strings
 
 <br />
 
-# Improvements <a name="id06"></a>
+# Improvements <a name="id31"></a>
 
 - [ ] README
 - [ ] UFCDs
 - [ ] Webpage
 - [ ] Photo
 
-# Author <a name="id07"></a>
+# Author <a name="id32"></a>
 
 <a href="https://www.linkedin.com/in/gabrielacantarini/">Gabriela Cantarini</a>
