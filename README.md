@@ -5,7 +5,12 @@
 - [Project overview](#id01)
 - [Technologies](#id02)
 - [0805-Algorithm](#id03)
-- [0806-C](#id04)
+- [0806-C Method](#id04)
+- [0809-C C++](#id05)
+- [0810-C++](#id06)
+- [0816-Java](#id07)
+- [3934-Visual-Basic](#id08)
+- [10791-Desenvolvimento-app-web-Java](#id09)
 - [Photos](#id05)
 - [Requirements](#id30)
 - [Improvements](#id31)
@@ -61,7 +66,7 @@ I've used the follow technologies:<br/>
 - [x] Construção de procedimentos
 - [x] Procedimentos de entrada e saída e chamada de procedimentos
 
-## 0806-C <a name="id04"></a>
+## 0806-C Metodo<a name="id04"></a>
 
 - [x] int / char / str
 - [x] matrix / vector
@@ -121,6 +126,21 @@ Variáveis
 Matriz de
 strings
 - [x] Leitura e escrita de strings
+
+## 0809-C C++ <a name="id05"></a>
+- [ ] Atualizar
+
+## 0810-C++ <a name="id06"></a>
+- [ ] Atualizar
+
+## 0816-Java <a name="id07"></a>
+- [ ] Atualizar
+
+## 3934-Visual-Basic <a name="id08"></a>
+- [ ] Atualizar
+
+## 10791-Desenvolvimento-app-web-Java <a name="id09"></a>
+- [ ] Atualizar
 
 
 ## Photos <a name="">In progress...</a>
