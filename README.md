@@ -32,7 +32,7 @@ I've used the follow technologies:<br/>
 <code><img height="20" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"></code>
 <code><img height="20" src="" alt=".Net img"></code>
 
-## 0805-Algorithm <a name="#id03">Algorithm</a>
+## 0805-Algorithm <a name="id03"></a>
 
 - [x] Linguagem estruturada
 - [x] Estruturas lógicas
@@ -61,7 +61,7 @@ I've used the follow technologies:<br/>
 - [x] Construção de procedimentos
 - [x] Procedimentos de entrada e saída e chamada de procedimentos
 
-## 0806-C <a name="#id04">0806-C</a>
+## 0806-C <a name="id04"></a>
 
 - [x] int / char / str
 - [x] matrix / vector
