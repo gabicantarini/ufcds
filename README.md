@@ -23,7 +23,6 @@
 This is a UFCDs-IEFP web. It is a page to study many sintax and languagues. 
 
 
-
 <h3>Visit webpage: </h3><a href="">In progress...</a>
 
 
@@ -67,11 +66,6 @@ I've used the follow technologies:<br/>
 - [x] Procedimentos de entrada e saída e chamada de procedimentos
 
 ## 0806-C Metodo<a name="id04"></a>
-
-- [x] int / char / str
-- [x] matrix / vector
-- [x] operators
-- [ ] plus...
 
 - [x] Estrutura de um programa em C/C++ - Função main ()
 - [x] Estrutura de um programa
