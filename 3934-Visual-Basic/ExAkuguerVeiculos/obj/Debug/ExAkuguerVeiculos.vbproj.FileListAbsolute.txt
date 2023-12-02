@@ -1,0 +1,12 @@
+C:\Users\mario\source\repos\Projetos\3934\Projetos_3934\ExAkuguerVeiculos\bin\Debug\ExAkuguerVeiculos.exe.config
+C:\Users\mario\source\repos\Projetos\3934\Projetos_3934\ExAkuguerVeiculos\bin\Debug\ExAkuguerVeiculos.exe
+C:\Users\mario\source\repos\Projetos\3934\Projetos_3934\ExAkuguerVeiculos\bin\Debug\ExAkuguerVeiculos.pdb
+C:\Users\mario\source\repos\Projetos\3934\Projetos_3934\ExAkuguerVeiculos\bin\Debug\ExAkuguerVeiculos.xml
+C:\Users\mario\source\repos\Projetos\3934\Projetos_3934\ExAkuguerVeiculos\obj\Debug\ExAkuguerVeiculos.vbproj.AssemblyReference.cache
+C:\Users\mario\source\repos\Projetos\3934\Projetos_3934\ExAkuguerVeiculos\obj\Debug\ExAkuguerVeiculos.Form1.resources
+C:\Users\mario\source\repos\Projetos\3934\Projetos_3934\ExAkuguerVeiculos\obj\Debug\ExAkuguerVeiculos.Resources.resources
+C:\Users\mario\source\repos\Projetos\3934\Projetos_3934\ExAkuguerVeiculos\obj\Debug\ExAkuguerVeiculos.vbproj.GenerateResource.cache
+C:\Users\mario\source\repos\Projetos\3934\Projetos_3934\ExAkuguerVeiculos\obj\Debug\ExAkuguerVeiculos.vbproj.CoreCompileInputs.cache
+C:\Users\mario\source\repos\Projetos\3934\Projetos_3934\ExAkuguerVeiculos\obj\Debug\ExAkuguerVeiculos.exe
+C:\Users\mario\source\repos\Projetos\3934\Projetos_3934\ExAkuguerVeiculos\obj\Debug\ExAkuguerVeiculos.xml
+C:\Users\mario\source\repos\Projetos\3934\Projetos_3934\ExAkuguerVeiculos\obj\Debug\ExAkuguerVeiculos.pdb
