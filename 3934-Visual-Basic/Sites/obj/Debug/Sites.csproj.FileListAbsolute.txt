@@ -1,0 +1,10 @@
+D:\Trabalhos 3935\TarefaWindowsForms\Sites\bin\Debug\Sites.exe.config
+D:\Trabalhos 3935\TarefaWindowsForms\Sites\bin\Debug\Sites.exe
+D:\Trabalhos 3935\TarefaWindowsForms\Sites\bin\Debug\Sites.pdb
+D:\Trabalhos 3935\TarefaWindowsForms\Sites\obj\Debug\Sites.csproj.AssemblyReference.cache
+D:\Trabalhos 3935\TarefaWindowsForms\Sites\obj\Debug\Sites.Form1.resources
+D:\Trabalhos 3935\TarefaWindowsForms\Sites\obj\Debug\Sites.Properties.Resources.resources
+D:\Trabalhos 3935\TarefaWindowsForms\Sites\obj\Debug\Sites.csproj.GenerateResource.cache
+D:\Trabalhos 3935\TarefaWindowsForms\Sites\obj\Debug\Sites.csproj.CoreCompileInputs.cache
+D:\Trabalhos 3935\TarefaWindowsForms\Sites\obj\Debug\Sites.exe
+D:\Trabalhos 3935\TarefaWindowsForms\Sites\obj\Debug\Sites.pdb
