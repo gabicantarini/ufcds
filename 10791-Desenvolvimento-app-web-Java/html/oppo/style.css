@@ -1,0 +1,95 @@
+.carro 
+{
+	width: 600px;
+	height: 200px;
+	background: url('./src/carro.png');
+	background-size: 100%;
+	position: absolute;
+	animation-name: animacaoCarro;
+	animation-duration:10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+ 
+@keyframes animacaoCarro
+{
+	0% {left: 0px;}
+	50% {left:  500px;}
+	100% {left:  0px;}
+}
+ 
+.roda 
+{
+	position: absolute;
+	top: 140px;
+	width: 95px;
+	height: 95px;
+	animation-name: animacaoRoda;
+	animation-duration:2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+ 
+@keyframes animacaoRoda
+{
+	0% {-webkit-transform: rotate(360deg)}
+	100% {-webkit-transform: rotate(0deg)}
+}
+ 
+.estrada 
+{
+	z-index: -1;
+	position: absolute;
+	width: 250%;
+	top: 158px;
+	left: 0px;
+	background-color: green;
+	height: 200px;
+}
+ 
+.marcas
+{
+	height: 0px;
+	width: 250%;
+	position: absolute;
+	left: -10%;
+	top: 60px;
+	background-color:black;
+	border-top: 10px dashed green;
+	margin-top: 25px;
+	animation: estradaMov 2s infinite linear;
+}
+ 
+@keyframes estradaMov
+{
+	0% {left: 0px;}
+	100% {left: - 2400px;}
+}
+ 
+.ceu 
+{
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	background-color: blue;
+	height: 200px;
+}
+ 
+.edificiol 
+{
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	top: 0px;
+	left: 0px;
+	background: url("./src/casa.png");
+	background-size: 100% 100%;
+	animation: edificioMov 4s infinite linear;
+}
+ 
+@keyframes edificioMov
+{
+	0% {left:1500px;}
+	100% {left :- 400px;}
+}
