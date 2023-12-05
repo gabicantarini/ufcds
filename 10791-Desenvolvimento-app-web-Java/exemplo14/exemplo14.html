@@ -1,0 +1,26 @@
+<! DOCTYPE html>
+<html>
+<body>
+<p>Clique o botão.</p>
+<button onclick="aMinhaFuncao()">Vá lá</button>
+ 
+<script>
+function aMinhaFuncao()
+{
+	var i=0;
+	var posX, posY;
+ 
+	while (i<10)
+	{
+		var oImg=document.createElement('img');
+		oImg.setAttribute ('src', 'alexandre.jpg');
+		oImg.setAttribute ('height', '100px');
+		oImg.setAttribute ('width', '100px');
+		posX=Math.random()*1000;// -> 0..1000
+		posY=300+Math.random()*100;//-> 300..400
+		oImg.setAttribute ('style','position : absolute; left: '+posX+'px; top: '+posY+'px');
+		document.body.appendChild (oImg);
+		i=i+1;
+	}
+}
+</script></body></html>
