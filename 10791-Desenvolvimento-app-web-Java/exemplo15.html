@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <input id='userInput' onkeyup="userSubmit()" size=60>
+ 
+    <button onclick='outroResultado()'>Me clique vai...</button><br>
+ 
+    <div id='result'>.......</div>
+    <div id='result2'>.......</div>
+ 
+    <script type='text/javascript'>
+        function userSubmit()
+        {
+            document.getElementById('result').innerHTML="escreveu:"+document.getElementById('userInput').value;
+            document.getElementById('result2').innerHTML=document.getElementById('userInput').value;
+
+        }
+
+        function outroResultado()
+        {
+            document.getElementById('result').innerHTML="É Natal!!! Camelooooo!!!!";
+            document.getElementById('result2').innerHTML="É Natal!!! Camelooooo!!!!";
+
+        }
+            
+    </script>
+</body>
+</html>
