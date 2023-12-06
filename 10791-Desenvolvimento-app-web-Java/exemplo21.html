@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <body onload="inicializa()">
+        <br>
+
+        <p id="p1"></p>
+
+        <script>
+            var x=0;
+            var aumento=10;
+
+            function inicializa(){
+                setInterval(function(){atualiza(),1000});
+            }
+
+            function atualiza(){
+
+                x=x+aumento;
+                document.getElementById("p1").innerHTML=x;             
+
+            }
+        </script>
+    </body>
+</html>
