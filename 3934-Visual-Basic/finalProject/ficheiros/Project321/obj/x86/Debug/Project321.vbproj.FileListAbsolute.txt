@@ -108,3 +108,15 @@ C:\Users\guilh\OneDrive\Área de Trabalho\Projecto_Final\ficheiros\Project321\bi
 C:\Users\guilh\OneDrive\Área de Trabalho\Projecto_Final\ficheiros\Project321\bin\Debug\Project321.exe
 C:\Users\guilh\OneDrive\Área de Trabalho\Projecto_Final\ficheiros\Project321\bin\Debug\Project321.pdb
 C:\Users\guilh\OneDrive\Área de Trabalho\Projecto_Final\ficheiros\Project321\bin\Debug\Project321.xml
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\finalProject\ficheiros\Project321\bin\Debug\Project321.exe.config
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\finalProject\ficheiros\Project321\bin\Debug\Project321.exe
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\finalProject\ficheiros\Project321\bin\Debug\Project321.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\finalProject\ficheiros\Project321\bin\Debug\Project321.xml
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\finalProject\ficheiros\Project321\obj\x86\Debug\Project321.vbproj.AssemblyReference.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\finalProject\ficheiros\Project321\obj\x86\Debug\Project321.frmMain.resources
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\finalProject\ficheiros\Project321\obj\x86\Debug\Project321.Resources.resources
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\finalProject\ficheiros\Project321\obj\x86\Debug\Project321.vbproj.GenerateResource.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\finalProject\ficheiros\Project321\obj\x86\Debug\Project321.vbproj.CoreCompileInputs.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\finalProject\ficheiros\Project321\obj\x86\Debug\Project321.exe
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\finalProject\ficheiros\Project321\obj\x86\Debug\Project321.xml
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\finalProject\ficheiros\Project321\obj\x86\Debug\Project321.pdb
