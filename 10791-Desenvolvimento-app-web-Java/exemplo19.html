@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <input id="userInput"  size=60 onkeyup="userSubmmit(event)">
+        <button onclick="userSubmmit()">Submeter</button>
+        <div id="result"></div>
+
+        <script type="text/javascript">
+            function userSubmmit(){
+                var UI=document.getElementById("userInput").value;
+                var resposta;
+
+                if (UI == "Ola") { 
+                    resposta="Oi! Tudo bem?";
+                }
+                else if (UI == "sempre"){
+                    resposta="ainda bem."; 
+                }
+                else if (UI == "estás bom?"){
+                    resposta="não, eu sou bom!"; 
+                }
+                else if (UI == "que idade tens?"){
+                    resposta="22 anos"; 
+                }
+                else if (UI == "que mentira"){
+                    resposta="certinho"; 
+                }
+                else if (UI == "conta uma piada"){
+                    resposta="sabes porque é que as focas olham sempre para cima?";
+                }
+                else if (UI == "sim"){
+                    resposta="és muito fixe";
+                }
+                else if (UI == "nao"){
+                    resposta="Porque é lá que estão os focos.";
+                }
+                else resposta="nao percebi, repete.";
+
+            }
+            
+        </script>
+    </body>
+</html>
