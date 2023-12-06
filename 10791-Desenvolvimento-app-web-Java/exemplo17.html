@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <input id="index" onkeyup="ProcuraLivro()">
+        <p id="livro"></p>
+
+        <script>
+            var livros = ["1984", "To Kill a Mockingbird", "The Great Gatsby",
+            "The Catcher in the Rye", "One Hundred Years of Solitude",
+            "The Lord of the Rings", "Pride and Prejudice", "The Hobbit","Brave New World", "The Chronicles of Narnia"];
+            function ProcuraLivro()
+            {
+                var index=parseInt(document.getElementById("index").value);
+                var texto="";
+                var i=0;
+                
+                for (i=0;i<index;i++)
+                {
+                   texto=texto+livros[i]+" <br>"; 
+                }
+
+                texto=texto+" o escolhido: "+livros[index];
+                document.getElementById("livro").innerHTML = texto;
+
+            }
+        </script>
+    </body>
+</html>
