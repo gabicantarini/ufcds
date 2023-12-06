@@ -1,0 +1,24 @@
+E:\PRA\3934 - Visual Basic\VB.Net\ExEscolherAuto\obj\Debug\ExEscolherAuto.vbproj.AssemblyReference.cache
+E:\PRA\3934 - Visual Basic\VB.Net\ExEscolherAuto\obj\Debug\ExEscolherAuto.Form1.resources
+E:\PRA\3934 - Visual Basic\VB.Net\ExEscolherAuto\obj\Debug\ExEscolherAuto.Resources.resources
+E:\PRA\3934 - Visual Basic\VB.Net\ExEscolherAuto\obj\Debug\ExEscolherAuto.vbproj.GenerateResource.cache
+E:\PRA\3934 - Visual Basic\VB.Net\ExEscolherAuto\obj\Debug\ExEscolherAuto.vbproj.CoreCompileInputs.cache
+E:\PRA\3934 - Visual Basic\VB.Net\ExEscolherAuto\bin\Debug\ExEscolherAuto.exe.config
+E:\PRA\3934 - Visual Basic\VB.Net\ExEscolherAuto\bin\Debug\ExEscolherAuto.exe
+E:\PRA\3934 - Visual Basic\VB.Net\ExEscolherAuto\bin\Debug\ExEscolherAuto.pdb
+E:\PRA\3934 - Visual Basic\VB.Net\ExEscolherAuto\bin\Debug\ExEscolherAuto.xml
+E:\PRA\3934 - Visual Basic\VB.Net\ExEscolherAuto\obj\Debug\ExEscolherAuto.exe
+E:\PRA\3934 - Visual Basic\VB.Net\ExEscolherAuto\obj\Debug\ExEscolherAuto.xml
+E:\PRA\3934 - Visual Basic\VB.Net\ExEscolherAuto\obj\Debug\ExEscolherAuto.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\ExEscolherAuto\bin\Debug\ExEscolherAuto.exe.config
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\ExEscolherAuto\bin\Debug\ExEscolherAuto.exe
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\ExEscolherAuto\bin\Debug\ExEscolherAuto.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\ExEscolherAuto\bin\Debug\ExEscolherAuto.xml
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\ExEscolherAuto\obj\Debug\ExEscolherAuto.vbproj.AssemblyReference.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\ExEscolherAuto\obj\Debug\ExEscolherAuto.Form1.resources
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\ExEscolherAuto\obj\Debug\ExEscolherAuto.Resources.resources
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\ExEscolherAuto\obj\Debug\ExEscolherAuto.vbproj.GenerateResource.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\ExEscolherAuto\obj\Debug\ExEscolherAuto.vbproj.CoreCompileInputs.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\ExEscolherAuto\obj\Debug\ExEscolherAuto.exe
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\ExEscolherAuto\obj\Debug\ExEscolherAuto.xml
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\3934-Visual-Basic\ExEscolherAuto\obj\Debug\ExEscolherAuto.pdb
