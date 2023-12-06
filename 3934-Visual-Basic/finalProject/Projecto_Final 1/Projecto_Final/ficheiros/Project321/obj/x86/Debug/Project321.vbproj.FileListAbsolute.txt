@@ -1,0 +1,110 @@
+Z:\Demo\Project321\Project321\obj\x86\Debug\Project321.frmMain.resources
+Z:\Demo\Project321\Project321\obj\x86\Debug\Project321.Resources.resources
+Z:\Demo\Project321\Project321\obj\x86\Debug\Project321.vbproj.GenerateResource.Cache
+Z:\Demo\Project321\Project321\bin\Debug\Project321.exe
+Z:\Demo\Project321\Project321\bin\Debug\Project321.pdb
+Z:\Demo\Project321\Project321\bin\Debug\Project321.xml
+Z:\Demo\Project321\Project321\obj\x86\Debug\Project321.exe
+Z:\Demo\Project321\Project321\obj\x86\Debug\Project321.xml
+Z:\Demo\Project321\Project321\obj\x86\Debug\Project321.pdb
+Z:\Demo\Project321\Project321\obj\x86\Debug\Project321.frmLogin.resources
+Z:\temp\demo\demo\Project321\Project321\obj\x86\Debug\Project321.exe
+Z:\temp\demo\demo\Project321\Project321\obj\x86\Debug\Project321.xml
+Z:\temp\demo\demo\Project321\Project321\obj\x86\Debug\Project321.pdb
+Z:\temp\demo\demo\Project321\Project321\bin\Debug\Project321.exe
+Z:\temp\demo\demo\Project321\Project321\bin\Debug\Project321.pdb
+Z:\temp\demo\demo\Project321\Project321\bin\Debug\Project321.xml
+Z:\temp\demo\demo\Project321\Project321\obj\x86\Debug\Project321.frmLogin.resources
+Z:\temp\demo\demo\Project321\Project321\obj\x86\Debug\Project321.frmMain.resources
+Z:\temp\demo\demo\Project321\Project321\obj\x86\Debug\Project321.Resources.resources
+Z:\temp\demo\demo\Project321\Project321\obj\x86\Debug\Project321.vbproj.GenerateResource.Cache
+Z:\temp\demo\demo\Project321\Project321\obj\x86\Debug\Project321.ITGeekSolutions.resources
+Z:\temp\demo\demo\CRUD Application\Project321\obj\x86\Debug\Project321.exe
+Z:\temp\demo\demo\CRUD Application\Project321\obj\x86\Debug\Project321.xml
+Z:\temp\demo\demo\CRUD Application\Project321\obj\x86\Debug\Project321.pdb
+Z:\temp\demo\demo\CRUD Application\Project321\bin\Debug\Project321.exe
+Z:\temp\demo\demo\CRUD Application\Project321\bin\Debug\Project321.pdb
+Z:\temp\demo\demo\CRUD Application\Project321\bin\Debug\Project321.xml
+Z:\temp\demo\demo\CRUD Application\Project321\obj\x86\Debug\Project321.frmLogin.resources
+Z:\temp\demo\demo\CRUD Application\Project321\obj\x86\Debug\Project321.frmMain.resources
+Z:\temp\demo\demo\CRUD Application\Project321\obj\x86\Debug\Project321.Resources.resources
+Z:\temp\demo\demo\CRUD Application\Project321\obj\x86\Debug\Project321.ITGeekSolutions.resources
+Z:\temp\demo\demo\CRUD Application\Project321\obj\x86\Debug\Project321.vbproj.GenerateResource.Cache
+C:\Users\Alvin John E. Castro\Desktop\ITGS\CRUD Application\Project321\obj\x86\Debug\Project321.exe
+C:\Users\Alvin John E. Castro\Desktop\ITGS\CRUD Application\Project321\obj\x86\Debug\Project321.xml
+C:\Users\Alvin John E. Castro\Desktop\ITGS\CRUD Application\Project321\obj\x86\Debug\Project321.pdb
+C:\Users\Alvin John E. Castro\Desktop\ITGS\CRUD Application\Project321\bin\Debug\Project321.exe
+C:\Users\Alvin John E. Castro\Desktop\ITGS\CRUD Application\Project321\bin\Debug\Project321.pdb
+C:\Users\Alvin John E. Castro\Desktop\ITGS\CRUD Application\Project321\bin\Debug\Project321.xml
+C:\Users\Alvin John E. Castro\Desktop\ITGS\CRUD Application\Project321\obj\x86\Debug\Project321.frmLogin.resources
+C:\Users\Alvin John E. Castro\Desktop\ITGS\CRUD Application\Project321\obj\x86\Debug\Project321.frmMain.resources
+C:\Users\Alvin John E. Castro\Desktop\ITGS\CRUD Application\Project321\obj\x86\Debug\Project321.Resources.resources
+C:\Users\Alvin John E. Castro\Desktop\ITGS\CRUD Application\Project321\obj\x86\Debug\Project321.ITGeekSolutions.resources
+C:\Users\Alvin John E. Castro\Desktop\ITGS\CRUD Application\Project321\obj\x86\Debug\Project321.vbproj.GenerateResource.Cache
+F:\Sem.4\extra vs code\ITGS CRUD\CRUD Application\Project321\bin\Debug\Project321.exe
+F:\Sem.4\extra vs code\ITGS CRUD\CRUD Application\Project321\bin\Debug\Project321.pdb
+F:\Sem.4\extra vs code\ITGS CRUD\CRUD Application\Project321\bin\Debug\Project321.xml
+F:\Sem.4\extra vs code\ITGS CRUD\CRUD Application\Project321\obj\x86\Debug\Project321.frmLogin.resources
+F:\Sem.4\extra vs code\ITGS CRUD\CRUD Application\Project321\obj\x86\Debug\Project321.frmMain.resources
+F:\Sem.4\extra vs code\ITGS CRUD\CRUD Application\Project321\obj\x86\Debug\Project321.Resources.resources
+F:\Sem.4\extra vs code\ITGS CRUD\CRUD Application\Project321\obj\x86\Debug\Project321.ITGeekSolutions.resources
+F:\Sem.4\extra vs code\ITGS CRUD\CRUD Application\Project321\obj\x86\Debug\Project321.vbproj.GenerateResource.Cache
+F:\Sem.4\extra vs code\ITGS CRUD\CRUD Application\Project321\obj\x86\Debug\Project321.vbproj.CoreCompileInputs.cache
+F:\Sem.4\extra vs code\ITGS CRUD\CRUD Application\Project321\obj\x86\Debug\Project321.exe
+F:\Sem.4\extra vs code\ITGS CRUD\CRUD Application\Project321\obj\x86\Debug\Project321.xml
+F:\Sem.4\extra vs code\ITGS CRUD\CRUD Application\Project321\obj\x86\Debug\Project321.pdb
+F:\Sem.4\extra vs code\ITGS CRUD\CRUD Application\Project321\obj\x86\Debug\Project321.vbprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\Ano 2021\CRUD - VB.NET\CRUD files\Project321\bin\Debug\Project321.exe.config
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\Ano 2021\CRUD - VB.NET\CRUD files\Project321\bin\Debug\Project321.exe
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\Ano 2021\CRUD - VB.NET\CRUD files\Project321\bin\Debug\Project321.pdb
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\Ano 2021\CRUD - VB.NET\CRUD files\Project321\bin\Debug\Project321.xml
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\Ano 2021\CRUD - VB.NET\CRUD files\Project321\obj\x86\Debug\Project321.vbprojAssemblyReference.cache
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\Ano 2021\CRUD - VB.NET\CRUD files\Project321\obj\x86\Debug\Project321.frmLogin.resources
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\Ano 2021\CRUD - VB.NET\CRUD files\Project321\obj\x86\Debug\Project321.frmMain.resources
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\Ano 2021\CRUD - VB.NET\CRUD files\Project321\obj\x86\Debug\Project321.Resources.resources
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\Ano 2021\CRUD - VB.NET\CRUD files\Project321\obj\x86\Debug\Project321.ITGeekSolutions.resources
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\Ano 2021\CRUD - VB.NET\CRUD files\Project321\obj\x86\Debug\Project321.vbproj.GenerateResource.cache
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\Ano 2021\CRUD - VB.NET\CRUD files\Project321\obj\x86\Debug\Project321.vbproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\Ano 2021\CRUD - VB.NET\CRUD files\Project321\obj\x86\Debug\Project321.exe
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\Ano 2021\CRUD - VB.NET\CRUD files\Project321\obj\x86\Debug\Project321.xml
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\Ano 2021\CRUD - VB.NET\CRUD files\Project321\obj\x86\Debug\Project321.pdb
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\Ano 2021\CRUD - VB.NET funciona\CRUD files\Project321\bin\Debug\Project321.exe.config
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\Ano 2021\CRUD - VB.NET funciona\CRUD files\Project321\bin\Debug\Project321.exe
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\Ano 2021\CRUD - VB.NET funciona\CRUD files\Project321\bin\Debug\Project321.pdb
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\Ano 2021\CRUD - VB.NET funciona\CRUD files\Project321\bin\Debug\Project321.xml
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\Ano 2021\CRUD - VB.NET funciona\CRUD files\Project321\obj\x86\Debug\Project321.vbproj.AssemblyReference.cache
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\Ano 2021\CRUD - VB.NET funciona\CRUD files\Project321\obj\x86\Debug\Project321.frmLogin.resources
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\Ano 2021\CRUD - VB.NET funciona\CRUD files\Project321\obj\x86\Debug\Project321.frmMain.resources
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\Ano 2021\CRUD - VB.NET funciona\CRUD files\Project321\obj\x86\Debug\Project321.Resources.resources
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\Ano 2021\CRUD - VB.NET funciona\CRUD files\Project321\obj\x86\Debug\Project321.ITGeekSolutions.resources
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\Ano 2021\CRUD - VB.NET funciona\CRUD files\Project321\obj\x86\Debug\Project321.vbproj.GenerateResource.cache
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\Ano 2021\CRUD - VB.NET funciona\CRUD files\Project321\obj\x86\Debug\Project321.vbproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\Ano 2021\CRUD - VB.NET funciona\CRUD files\Project321\obj\x86\Debug\Project321.exe
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\Ano 2021\CRUD - VB.NET funciona\CRUD files\Project321\obj\x86\Debug\Project321.xml
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\Ano 2021\CRUD - VB.NET funciona\CRUD files\Project321\obj\x86\Debug\Project321.pdb
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\VB.Net\Aula 12\CRUD - VB.NET funciona\CRUD files\Project321\bin\Debug\Project321.exe.config
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\VB.Net\Aula 12\CRUD - VB.NET funciona\CRUD files\Project321\bin\Debug\Project321.exe
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\VB.Net\Aula 12\CRUD - VB.NET funciona\CRUD files\Project321\bin\Debug\Project321.pdb
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\VB.Net\Aula 12\CRUD - VB.NET funciona\CRUD files\Project321\bin\Debug\Project321.xml
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\VB.Net\Aula 12\CRUD - VB.NET funciona\CRUD files\Project321\obj\x86\Debug\Project321.vbproj.AssemblyReference.cache
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\VB.Net\Aula 12\CRUD - VB.NET funciona\CRUD files\Project321\obj\x86\Debug\Project321.frmLogin.resources
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\VB.Net\Aula 12\CRUD - VB.NET funciona\CRUD files\Project321\obj\x86\Debug\Project321.frmMain.resources
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\VB.Net\Aula 12\CRUD - VB.NET funciona\CRUD files\Project321\obj\x86\Debug\Project321.Resources.resources
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\VB.Net\Aula 12\CRUD - VB.NET funciona\CRUD files\Project321\obj\x86\Debug\Project321.ITGeekSolutions.resources
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\VB.Net\Aula 12\CRUD - VB.NET funciona\CRUD files\Project321\obj\x86\Debug\Project321.vbproj.GenerateResource.cache
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\VB.Net\Aula 12\CRUD - VB.NET funciona\CRUD files\Project321\obj\x86\Debug\Project321.vbproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\VB.Net\Aula 12\CRUD - VB.NET funciona\CRUD files\Project321\obj\x86\Debug\Project321.exe
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\VB.Net\Aula 12\CRUD - VB.NET funciona\CRUD files\Project321\obj\x86\Debug\Project321.xml
+C:\Users\User\Documents\Alcoitão IEFP\Programadores\VB.NET\VB.Net\Aula 12\CRUD - VB.NET funciona\CRUD files\Project321\obj\x86\Debug\Project321.pdb
+C:\Users\guilh\OneDrive\Área de Trabalho\Projecto_Final\ficheiros\Project321\obj\x86\Debug\Project321.vbproj.AssemblyReference.cache
+C:\Users\guilh\OneDrive\Área de Trabalho\Projecto_Final\ficheiros\Project321\obj\x86\Debug\Project321.frmMain.resources
+C:\Users\guilh\OneDrive\Área de Trabalho\Projecto_Final\ficheiros\Project321\obj\x86\Debug\Project321.Resources.resources
+C:\Users\guilh\OneDrive\Área de Trabalho\Projecto_Final\ficheiros\Project321\obj\x86\Debug\Project321.vbproj.GenerateResource.cache
+C:\Users\guilh\OneDrive\Área de Trabalho\Projecto_Final\ficheiros\Project321\obj\x86\Debug\Project321.vbproj.CoreCompileInputs.cache
+C:\Users\guilh\OneDrive\Área de Trabalho\Projecto_Final\ficheiros\Project321\obj\x86\Debug\Project321.exe
+C:\Users\guilh\OneDrive\Área de Trabalho\Projecto_Final\ficheiros\Project321\obj\x86\Debug\Project321.xml
+C:\Users\guilh\OneDrive\Área de Trabalho\Projecto_Final\ficheiros\Project321\obj\x86\Debug\Project321.pdb
+C:\Users\guilh\OneDrive\Área de Trabalho\Projecto_Final\ficheiros\Project321\bin\Debug\Project321.exe.config
+C:\Users\guilh\OneDrive\Área de Trabalho\Projecto_Final\ficheiros\Project321\bin\Debug\Project321.exe
+C:\Users\guilh\OneDrive\Área de Trabalho\Projecto_Final\ficheiros\Project321\bin\Debug\Project321.pdb
+C:\Users\guilh\OneDrive\Área de Trabalho\Projecto_Final\ficheiros\Project321\bin\Debug\Project321.xml
