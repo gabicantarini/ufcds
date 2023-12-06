@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <div>Escreva o máximo de palavras que conseguir com as seguintes letras: <br><br></div>
+
+
+    <button onclick='AdicionaR()'>R</button>
+    <button onclick='AdicionaE()'>E</button>
+    <button onclick='AdicionaI()'>I</button>
+    <button onclick='AdicionaV()'>V</button><br><br>
+    <button onclick='Introduzir()'>Introduzir palavra</button><br>
+
+    <div id='result'></div>
+ 
+    <script type='text/javascript'>
+
+        function AdicionaR()
+        {
+            document.getElementById('result').innerHTML=document.getElementById('result').innerHTML+"R";
+        }
+
+        function AdicionaE()
+        {
+            document.getElementById('result').innerHTML=document.getElementById('result').innerHTML+"E";
+        }
+
+        function AdicionaI()
+        {
+            document.getElementById('result').innerHTML=document.getElementById('result').innerHTML+"I";
+        }
+
+        function AdicionaV()
+        {
+            document.getElementById('result').innerHTML=document.getElementById('result').innerHTML+"V";
+        }
+        
+        function Introduzir()
+        {
+            document.getElementById('result').innerHTML=document.getElementById('result').innerHTML+"<br>";
+        }
+            
+    </script>
+</body>
+</html>
