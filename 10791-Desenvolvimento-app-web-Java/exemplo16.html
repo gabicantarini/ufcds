@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <input id="operando" onkeyup="Incrementa()">
+        <p id="resultado"></p>
+
+        <script>
+            function Incrementa()
+            {
+                var i = parseInt(document.getElementById("operando").value);
+                document.getElementById("resultado").innerHTML="Incrementação: "+(i+1);
+            }
+        </script>
+    </body>
+</html>
