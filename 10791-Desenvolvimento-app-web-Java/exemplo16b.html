@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <input id="num1" onkeyup="Calculo()"><br>
+        <input id="num2" onkeyup="Calculo()">
+        
+        <p id="somador"></p>
+        <p id="subtracao"></p>
+        <p id="multip"></p>
+        <p id="divisao"></p>
+
+
+        <script>
+
+            function Calculo() {
+            var nmr1 = parseInt(document.getElementById("num1").value);
+            var nmr2 = parseInt(document.getElementById("num2").value);
+
+            //soma
+            var soma = nmr1 + nmr2;
+            document.getElementById("somador").innerHTML = "Soma: " + soma;
+
+            //subtracao
+            var sub = nmr1 - nmr2;
+            document.getElementById("subtracao").innerHTML = "Subtracao: " + sub;
+
+            //multiplicacao
+            var multi = nmr1 * nmr2;
+            document.getElementById("multip").innerHTML = "Multiplicação: " + multi;
+
+            //divisao
+            if (nmr2 == 0){
+                document.getElementById("divisao").innerHTML = "Divisão por zero não é possível.";
+            }
+            else{
+                var div = nmr1 / nmr2;
+                document.getElementById("divisao").innerHTML = "Divisão: " + div;
+            }
+        }    
+        </script>
+    </body>
+</html>
