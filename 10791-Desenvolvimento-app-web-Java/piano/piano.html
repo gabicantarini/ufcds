@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./src/style/style.css" rel="stylesheet" />
+    <title>Piano</title>
+</head>
+<body>
+    <audio id="do" controls preload="auto">
+        <source src="./src/sons/do.wav">
+    </audio>
+    <audio id="re" controls preload="auto">
+        <source src="./src/sons/re.wav">
+    </audio>
+    <audio id="mi" controls spreload="auto">
+        <source src="./src/sons/mi.wav">
+    </audio>
+    <audio id="fa" controls preload="auto">
+        <source src="./src/sons/fa.wav">
+    </audio>
+    <audio id="sol" controls  preload="auto">
+        <source src="./src/sons/sol.wav">
+    </audio>
+    <audio id="la" controls preload="auto">
+        <source src="./src/sons/la.wav">
+    </audio>
+    <audio id="si" controls  preload="auto">
+        <source src="./src/sons/si.wav">
+    </audio>
+    <audio id="house" controls preload="auto">
+        <source src="./src/sons/house.mp3">
+    </audio>
+    <audio id="ohno" controls preload="auto">
+        <source src="./src/sons/oh-no-no-no-tik-tok-song-sound-effect.mp3">
+    </audio>
+    <audio id="love" controls preload="auto">
+        <source src="./src/sons/i-love-you_1.mp3">
+    </audio>
+    <audio id="fernando" controls preload="auto">
+        <source src="./src/sons/Fernando.mp3">
+    </audio>
+    <audio id="allaboard" controls preload="auto">
+        <source src="./src/sons/allAboard.mp3">
+    </audio>
+
+    <button id="do-button" onclick="doNota()" style="width: 100px;; height: 100px;">do</button>
+    <button id="re-button" onclick="reNota()" style="width: 100px;; height: 100px;">re</button>
+    <button id="mi-button" onclick="miNota()" style="width: 100px;; height: 100px;">mi</button>
+    <button id="fa-button" onclick="faNota()" style="width: 100px;; height: 100px;">fa</button>
+    <button id="sol-button" onclick="solNota()" style="width: 100px;; height: 100px;">sol</button>
+    <button id="la-button" onclick="laNota()" style="width: 100px;; height: 100px;">la</button>
+    <button id="si-button" onclick="siNota()" style="width: 100px;; height: 100px;">si</button>
+    <button id="house-button" onclick="houseNota()" style="width: 100px;; height: 100px;">house</button>
+    <button id="ohno-button" onclick="ohnoNota()" style="width: 100px;; height: 100px;">Oh No</button>
+    <button id="love-button" onclick="loveNota()" style="width: 100px;; height: 100px;">Love</button>
+    <button id="fernando-button" onclick="fernandoNota()" style="width: 100px;; height: 100px;">Nando</button>
+    <button id="allAboard-button" onclick="allAboardNota()" style="width: 100px;; height: 100px;">All Aboard</button>
+<script src="./src/js/piano.js"></script>
+</body>
+</html>

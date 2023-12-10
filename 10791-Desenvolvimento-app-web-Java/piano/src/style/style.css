@@ -1,0 +1,124 @@
+audio {
+    width: 0px;
+    border-color: white;
+}
+
+#do-button {
+    background-color: lightblue;
+    color: gray;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+
+#re-button {
+    background-color: lightseagreen;
+    color: gray;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+
+#mi-button {
+    background-color: lightsalmon;
+    color: gray;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+
+#fa-button {
+    background-color: lightpink;
+    color: gray;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+
+#sol-button {
+    background-color: lightblue;
+    color: gray;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+
+#la-button {
+    background-color: lightgreen;
+    color: gray;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+
+#si-button {
+    background-color: lightgray;
+    color: gray;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+
+#house-button {
+    background-color: lightgoldenrodyellow;
+    color: gray;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+
+#ohno-button {
+    background-color: lightcyan;
+    color: gray;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+
+#love-button {
+    background-color: lightcoral;
+    color: gray;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+
+#fernando-button  {
+    background-color: lightgreen;
+    color: gray;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+
+#allAboard-button {
+    background-color: lightcyan;
+    color: gray;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+
+/*
+position: absolute;
+left: 125px;
+top: 250px;
+width: 50px;
+heigh: 180px;
+backgournd-color: white;
+
+
+
+position: absolute;
+left: 175px;
+top: 250px;
+width: 50px;
+heigh: 180px;
+backgournd-color: white;
+
+position: absolute;
+left: 160px;
+top: 250px;
+width: 30px;
+heigh: 100px;
+backgournd-color: black; */
