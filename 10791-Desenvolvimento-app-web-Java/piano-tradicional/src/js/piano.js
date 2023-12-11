@@ -49,6 +49,7 @@ function solNota() {
 function laNota() {
     let laNota = document.getElementById('la');
     let button = document.getElementById('la-button');
+    
     button.style.backgroundColor = "purple";
     button.style.color = "white";
     laNota.onpause;
