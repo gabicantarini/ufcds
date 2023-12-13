@@ -1,6 +1,6 @@
 
 function doNota() {
-    let doNota = document.getElementById('do');
+    let doNota = document.getElementById('re');
     let button = document.getElementById('do-button');
     button.style.backgroundColor = "blue";
     button.style.color = "white";
@@ -17,7 +17,7 @@ function reNota() {
     reNota.onpause;
     reNota.currentTime = 0;
     reNota.play();
-}ss
+}
 
 function miNota() {
     let miNota = document.getElementById('mi');
@@ -118,15 +118,15 @@ function MexeOMingau(event) {
     if (key == 76) //tecla L
         doNota();
     if (key == 83)//Tecla do S
-        renota();
+        reNota();
     if (key == 68)//Tecla do D
-        minota();
+        miNota();
     if (key == 70)//Tecla do F
-        fanota();
+        faNota();
     if (key == 71)//Tecla do G
-        sonota();
+        soNota();
     if (key == 72)//Tecla do H
-        lanota();
+        laNota();
     if (key == 74)//Tecla do J
-        sinota();
+        siNota();
 }
