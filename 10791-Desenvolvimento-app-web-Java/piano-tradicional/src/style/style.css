@@ -160,6 +160,9 @@ audio {
 
 #black-button1 {
     position:absolute;
+    writing-mode: vertical-rl; 
+    color: white;
+    align-items: center;
     left:160px;
     top:250px;
     width:30px;
@@ -169,6 +172,9 @@ audio {
 
 #black-button2 {
     position:absolute;
+    writing-mode: vertical-rl; 
+    color: white;
+    align-items: center;
     left:260px;
     top:250px;
     width:30px;
@@ -178,6 +184,9 @@ audio {
 
 #black-button3 {
     position:absolute;
+    writing-mode: vertical-rl; 
+    color: white;
+    align-items: center;
     left:360px;
     top:250px;
     width:30px;
@@ -187,6 +196,9 @@ audio {
 
 #black-button4 {
     position:absolute;
+    writing-mode: vertical-rl; 
+    color: white;
+    align-items: center;
     left:460px;
     top:250px;
     width:30px;
@@ -196,6 +208,9 @@ audio {
 
 #black-button5 {
     position:absolute;
+    writing-mode: vertical-rl; 
+    color: white;
+    align-items: center;
     left:560px;
     top:250px;
     width:30px;
@@ -205,6 +220,9 @@ audio {
 
 #black-button6 {
     position:absolute;
+    writing-mode: vertical-rl; 
+    color: white;
+    align-items: center;
     left:660px;
     top:250px;
     width:30px;
