@@ -113,6 +113,49 @@ function fernandoNota() {
     fernando.play();
 }
 
+function button1(){
+    let sete = document.getElementById('sete');
+    sete.onpause;
+    sete.currentTime = 0;
+    sete.play();
+}
+
+function button2(){
+    let oito = document.getElementById('oito');
+    oito.onpause;
+    oito.currentTime = 0;
+    oito.play();
+}
+
+function button3(){
+    let nove = document.getElementById('nove');
+    nove.onpause;
+    nove.currentTime = 0;
+    nove.play();
+}
+
+function button4(){
+    let cinquenta = document.getElementById('cinquenta');
+    cinquenta.onpause;
+    cinquenta.currentTime = 0;
+    cinquenta.play();
+}
+
+function button5(){
+    let cinquentaUm = document.getElementById('cinquentaUm');
+    cinquentaUm.onpause;
+    cinquentaUm.currentTime = 0;
+    cinquentaUm.play();
+}
+
+function button6(){
+    let cinquentaDois = document.getElementById('cinquentaDois');
+    cinquentaDois.onpause;
+    cinquentaDois.currentTime = 0;
+    cinquentaDois.play();
+}
+
+
 function MexeOMingau(event) {
     var key = event.keyCode;
     if (key == 76) //tecla L
@@ -124,9 +167,25 @@ function MexeOMingau(event) {
     if (key == 70)//Tecla do F
         faNota();
     if (key == 71)//Tecla do G
-        soNota();
+        solNota();
     if (key == 72)//Tecla do H
         laNota();
     if (key == 74)//Tecla do J
         siNota();
+    if (key == 65)//Tecla do A
+        button1();
+    if (key == 67)//Tecla do B
+        button2();
+    if (key == 68)//Tecla do C
+        button3();
+    if (key == 69)//Tecla do D
+        button4();
+    if (key == 70)//Tecla do E
+        button5();
+    if (key == 71)//Tecla do F
+        button6();
+    if (key == 72)//Tecla do G
+        allAboardNota();
+    if (key == 73)//Tecla do H
+        fernandoNota();
 }
