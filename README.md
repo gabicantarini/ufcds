@@ -1,5 +1,7 @@
 # UFCDs
 
+- Repositório com propósito de estudo em programação referente a formação 23046 - Programador de Informática, com um total de 1.425 horas, ministrada pelo IEFP.
+
 # Index
 
 - [Project overview](#id01)
