@@ -23,7 +23,7 @@ Formação 23046 - Programador de Informática
 ## Project overview <a name="id01"></a>
 
 **This is a UFCDs-IEFP repository for study purpose. It is a repo to study many sintax and languagues.**
-Repositório com propósito de estudo em programação referente a formação 23046 - Programador de Informática, com um total de 1.425 horas, ministrada pelo IEFP.
+<br />Repositório com propósito de estudo em programação referente a formação 23046 - Programador de Informática, com um total de 1.425 horas, ministradas pelo IEFP.
 
 <h3>Visit webpage: </h3><a href="">In progress...</a>
 
