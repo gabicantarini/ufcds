@@ -19,8 +19,8 @@ class Pessoa:
 
 #Cria a classe filha AberturaConta, que herda as informações da classe pai
 class AberturaConta(Pessoa):
-    def __init__(self, nome, idade, cpf, endereco, conta):
-        super().__init__(nome, idade, cpf)
+    def __init__(self, nome, idade, nif, endereco, conta):
+        super().__init__(nome, idade, nif)
         self.endereco = endereco
         self.conta = conta
 
