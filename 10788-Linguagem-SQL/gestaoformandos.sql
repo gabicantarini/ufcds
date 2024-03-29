@@ -13,6 +13,6 @@ create table formando (
 );
 
 insert into formando (id_formando, nome, morada, contacto, iban, sexo, data_nascimento) values
-(1, 'Ana Silva', 'Coimbra', NULL, '0', 'F', '2000-12-31'); 
+(1, 'Gabriela Cantarini', 'BombARRAL', NULL, '0', 'F', '1984-04-03'); 
 
 select * from formando;
