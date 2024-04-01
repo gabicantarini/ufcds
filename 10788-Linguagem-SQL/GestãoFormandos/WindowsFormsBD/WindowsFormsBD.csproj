@@ -192,8 +192,17 @@
     <Compile Include="Geral.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAreaApagar.resx">
+      <DependentUpon>FormAreaApagar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAreaAtualizar.resx">
+      <DependentUpon>FormAreaAtualizar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormAreaInserir.resx">
       <DependentUpon>FormAreaInserir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAreaListar.resx">
+      <DependentUpon>FormAreaListar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormFormandosAtualizar.resx">
       <DependentUpon>FormFormandosAtualizar.cs</DependentUpon>
