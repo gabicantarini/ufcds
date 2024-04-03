@@ -13,17 +13,22 @@ namespace WindowsFormsBD
     public partial class FormNacionalidadeInserir : Form
     {
         DBConnect ligacao = new DBConnect();
+        string id_nacionalidade = "";
         public FormNacionalidadeInserir()
         {
             InitializeComponent();
         }
 
+        private void FormAdicionarNacionalidade_Load(object sender, EventArgs e)
+        {
+            nudID.Value = ligacao.DevolveUltimoIDNacionalidade();
+        }
         private void btnGravar_Click(object sender, EventArgs e)
         {
             if (VerificarCampos())
             {
 
-                if (ligacao.InsertNacionalidade(iso2.Text, nacionalidade.Text))
+                if (ligacao.InsertNacionalidade(nudID.Value.ToString(), iso2.Text, nacionalidade.Text))
                 {
                     MessageBox.Show("Nacionalidade gravada com sucesso!");
                     Limpar();
@@ -53,10 +58,6 @@ namespace WindowsFormsBD
                 return false;
             }
             return true;
-        }
-        private void FormAdicionarNacionalidade_Load(object sender, EventArgs e)
-        {
-
         }
         private void Limpar()
         {

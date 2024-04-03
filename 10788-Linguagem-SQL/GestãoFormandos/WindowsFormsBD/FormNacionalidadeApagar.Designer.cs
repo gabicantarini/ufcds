@@ -38,6 +38,7 @@
             this.cancelar = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.cmbNacionalidade = new System.Windows.Forms.ComboBox();
+            this.idNacionalidade = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -118,6 +119,7 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.idNacionalidade);
             this.groupBox3.Controls.Add(this.cmbNacionalidade);
             this.groupBox3.Location = new System.Drawing.Point(58, 20);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -139,6 +141,14 @@
             this.cmbNacionalidade.Size = new System.Drawing.Size(586, 28);
             this.cmbNacionalidade.TabIndex = 0;
             // 
+            // idNacionalidade
+            // 
+            this.idNacionalidade.Location = new System.Drawing.Point(40, 88);
+            this.idNacionalidade.Name = "idNacionalidade";
+            this.idNacionalidade.ReadOnly = true;
+            this.idNacionalidade.Size = new System.Drawing.Size(82, 26);
+            this.idNacionalidade.TabIndex = 9;
+            // 
             // FormNacionalidadeApagar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -154,6 +164,7 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -170,5 +181,6 @@
         private System.Windows.Forms.Button cancelar;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.ComboBox cmbNacionalidade;
+        private System.Windows.Forms.TextBox idNacionalidade;
     }
 }

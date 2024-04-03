@@ -52,3 +52,7 @@ C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEF
 C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\10788-Linguagem-SQL\GestãoFormandos\WindowsFormsBD\obj\Debug\WindowsFormsBD.csproj.CopyComplete
 C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\10788-Linguagem-SQL\GestãoFormandos\WindowsFormsBD\obj\Debug\WindowsFormsBD.exe
 C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\10788-Linguagem-SQL\GestãoFormandos\WindowsFormsBD\obj\Debug\WindowsFormsBD.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\10788-Linguagem-SQL\GestãoFormandos\WindowsFormsBD\obj\Debug\WindowsFormsBD.FormAreaApagar.resources
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\10788-Linguagem-SQL\GestãoFormandos\WindowsFormsBD\obj\Debug\WindowsFormsBD.FormAreaAtualizar.resources
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\10788-Linguagem-SQL\GestãoFormandos\WindowsFormsBD\obj\Debug\WindowsFormsBD.FormAreaInserir.resources
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Formação programação IEFP\ufcds-web\10788-Linguagem-SQL\GestãoFormandos\WindowsFormsBD\obj\Debug\WindowsFormsBD.FormAreaListar.resources

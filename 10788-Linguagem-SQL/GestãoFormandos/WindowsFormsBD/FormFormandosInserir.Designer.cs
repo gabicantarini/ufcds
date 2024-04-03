@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cmbNacionalidade = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.btnPesquisa = new System.Windows.Forms.Button();
             this.mtxtContacto = new System.Windows.Forms.MaskedTextBox();
@@ -51,7 +52,6 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnGravar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
-            this.cmbNacionalidade = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudID)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -86,6 +86,14 @@
             this.groupBox1.Size = new System.Drawing.Size(578, 501);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
+            // 
+            // cmbNacionalidade
+            // 
+            this.cmbNacionalidade.FormattingEnabled = true;
+            this.cmbNacionalidade.Location = new System.Drawing.Point(155, 192);
+            this.cmbNacionalidade.Name = "cmbNacionalidade";
+            this.cmbNacionalidade.Size = new System.Drawing.Size(351, 28);
+            this.cmbNacionalidade.TabIndex = 20;
             // 
             // label8
             // 
@@ -307,14 +315,6 @@
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
-            // 
-            // cmbNacionalidade
-            // 
-            this.cmbNacionalidade.FormattingEnabled = true;
-            this.cmbNacionalidade.Location = new System.Drawing.Point(155, 192);
-            this.cmbNacionalidade.Name = "cmbNacionalidade";
-            this.cmbNacionalidade.Size = new System.Drawing.Size(351, 28);
-            this.cmbNacionalidade.TabIndex = 20;
             // 
             // FormFormandosInserir
             // 

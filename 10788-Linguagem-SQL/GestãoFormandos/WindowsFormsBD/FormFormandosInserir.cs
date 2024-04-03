@@ -23,7 +23,7 @@ namespace WindowsFormsBD
         private void FormFormandosInserir_Load(object sender, EventArgs e)
         {
             nudID.Value = ligacao.DevolveUltimoID();
-            ligacao.PreencherComboNacionalidade(ref cmbNacionalidade);
+            ligacao.PreenchercomboNacionalidade(ref cmbNacionalidade);
 
         }
 

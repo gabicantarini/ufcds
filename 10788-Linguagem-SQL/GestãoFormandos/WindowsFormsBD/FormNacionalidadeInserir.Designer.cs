@@ -35,9 +35,12 @@
             this.cancelar = new System.Windows.Forms.Button();
             this.tnGravar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.id = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.nudID = new System.Windows.Forms.NumericUpDown();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudID)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -48,7 +51,6 @@
             this.label1.Size = new System.Drawing.Size(99, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "ALF2(ISO2):";
-            //this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -95,6 +97,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.nudID);
+            this.groupBox1.Controls.Add(this.id);
             this.groupBox1.Controls.Add(this.nacionalidade);
             this.groupBox1.Controls.Add(this.iso2);
             this.groupBox1.Controls.Add(this.label2);
@@ -105,6 +109,15 @@
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             // 
+            // id
+            // 
+            this.id.AutoSize = true;
+            this.id.Location = new System.Drawing.Point(135, 16);
+            this.id.Name = "id";
+            this.id.Size = new System.Drawing.Size(30, 20);
+            this.id.TabIndex = 9;
+            this.id.Text = "ID:";
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.tnGravar);
@@ -114,6 +127,13 @@
             this.groupBox2.Size = new System.Drawing.Size(778, 171);
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
+            // 
+            // nudID
+            // 
+            this.nudID.Location = new System.Drawing.Point(182, 16);
+            this.nudID.Name = "nudID";
+            this.nudID.Size = new System.Drawing.Size(120, 26);
+            this.nudID.TabIndex = 10;
             // 
             // FormNacionalidadeInserir
             // 
@@ -128,6 +148,7 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.nudID)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -142,5 +163,7 @@
         private System.Windows.Forms.Button tnGravar;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Label id;
+        private System.Windows.Forms.NumericUpDown nudID;
     }
 }

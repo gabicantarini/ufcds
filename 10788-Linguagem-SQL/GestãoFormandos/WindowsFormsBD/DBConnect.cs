@@ -1,6 +1,7 @@
 ﻿using MySql.Data.MySqlClient;
 using System.Data;
 using System.Windows.Forms;
+using static WindowsFormsBD.DBConnect;
 
 namespace WindowsFormsBD
 {
@@ -365,9 +366,9 @@ namespace WindowsFormsBD
             return ultimoID;
         }
 
-        public void PreencherDataGriedViewFormandos(ref DataGridView dgv, char genero, string nome, string id_nacionalidade)
+        public void PreencherDataGriedViewFormandos(ref DataGridView dgv, char genero, string nome)
         {
-            string query = "select id_formando, nome, iban, id_nacionalidade, nacionalidade sexo from formando ";
+            string query = "select id_formando, nome, iban, nacionalidade sexo from formando ";
 
             bool flag = false;
 
@@ -389,17 +390,17 @@ namespace WindowsFormsBD
                 query = query + " where nome like '%" + nome + "%'";
                 flag = true;
             }
-            // Verifica se o parâmetro 'id_nacionalidade' tem algum valor e se algum filtro já foi aplicado
-            if (id_nacionalidade.Length > 0 && flag == true)
-            {
-                // Se sim, adiciona cláusula AND para filtrar por nacionalidade
-                query = query + " and id_nacionalidade = '" + id_nacionalidade + "'";
-            }
-            else if (id_nacionalidade.Length > 0)
-            {
-                // Se não, adiciona cláusula WHERE para filtrar por nacionalidade
-                query = query + " where id_nacionalidade = '" + id_nacionalidade + "'";
-            }
+            //// Verifica se o parâmetro 'id_nacionalidade' tem algum valor e se algum filtro já foi aplicado
+            //if (id_nacionalidade.Length > 0 && flag == true)
+            //{
+            //    // Se sim, adiciona cláusula AND para filtrar por nacionalidade
+            //    query = query + " and id_nacionalidade = '" + id_nacionalidade + "'";
+            //}
+            //else if (id_nacionalidade.Length > 0)
+            //{
+            //    // Se não, adiciona cláusula WHERE para filtrar por nacionalidade
+            //    query = query + " where id_nacionalidade = '" + id_nacionalidade + "'";
+            //}
             // Adiciona a cláusula ORDER BY para ordenar os resultados por nome
             query = query + " order by nome;";
 
@@ -423,7 +424,7 @@ namespace WindowsFormsBD
                         dgv.Rows[idxLinha].Cells["codID"].Value = dr[0].ToString();
                         dgv.Rows[idxLinha].Cells["Nome"].Value = dr["nome"].ToString();
                         dgv.Rows[idxLinha].Cells[2].Value = dr[2].ToString();
-                        dgv.Rows[idxLinha].Cells[3].Value = dr["id_nacionalidade"].ToString();
+                        //dgv.Rows[idxLinha].Cells[3].Value = dr["id_nacionalidade"].ToString();
                         dgv.Rows[idxLinha].Cells["Genero"].Value = dr["sexo"].ToString();
                         idxLinha++;
                     }
@@ -527,9 +528,9 @@ namespace WindowsFormsBD
             return flag;
 
         }
-        public bool InsertNacionalidade(string ALF2, string Nacionalidade)
+        public bool InsertNacionalidade(string ID, string ALF2, string Nacionalidade)
         {
-            string query = "insert into Nacionalidade (id_nacionalidade,alf2,nacionalidade) values (0,'" + ALF2 + "', '" + Nacionalidade + "');";
+            string query = "insert into Nacionalidade (id_nacionalidade,alf2,nacionalidade) values ('" + ID + "','" + ALF2 + "', '" + Nacionalidade + "');";
 
             bool flag = true;
             try
@@ -648,10 +649,9 @@ namespace WindowsFormsBD
             return flag;
 
         }
-        public void PreencherComboNacionalidade(ref ComboBox combo)
+        public void PreenchercomboNacionalidade(ref System.Windows.Forms.ComboBox cmb)
         {
-            string query = "select id_nacionalidade, alf2, nacionalidade from " +
-                "Nacionalidade order by nacionalidade;";
+            string query = "select nacionalidade,  alf2, id_nacionalidade  from Nacionalidade order by nacionalidade;";
 
             try
             {
@@ -659,11 +659,22 @@ namespace WindowsFormsBD
                 {
                     MySqlCommand cmd = new MySqlCommand(query, connection);
                     MySqlDataReader dr = cmd.ExecuteReader();
+
+                    cmb.Items.Clear();
+
                     while (dr.Read())
                     {
-                        combo.Items.Add(dr[2].ToString() + " - " +
-                            dr["alf2"].ToString() + " - " + dr[0].ToString());
+                        string nacionalidade = dr.GetString("nacionalidade");
+                        string alf2 = dr.GetString("alf2");
+                        int idNacionalidade = dr.GetInt32("id_nacionalidade");
+
+
+                        NacionalidadeItem item = new NacionalidadeItem(nacionalidade, alf2, idNacionalidade);
+
+                        cmb.Items.Add(item);
                     }
+
+                    dr.Close();
                 }
             }
             catch (MySqlException ex)
@@ -673,6 +684,56 @@ namespace WindowsFormsBD
             finally
             {
                 CloseConnection();
+            }
+        }
+
+        public int DevolveUltimoIDNacionalidade()
+        {
+            int ultimoID = 0;
+
+            string query = "select max(id_nacionalidade) from nacionalidade";
+            try
+            {
+                if (OpenConnection())
+                {
+                    MySqlCommand cmd = new MySqlCommand(query, connection);
+                    //ultimoID = int.Parse(cmd.ExecuteScalar().ToString());
+                    int.TryParse(cmd.ExecuteScalar().ToString(), out ultimoID);
+                    ultimoID++;
+                }
+            }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            //catch 
+            //{
+            //    //MessageBox.Show("ERRO!");
+            //}
+            finally
+            {
+                CloseConnection();
+            }
+
+            return ultimoID;
+        }
+
+        public class NacionalidadeItem
+        {
+            public int IdNacionalidade { get; set; }
+            public string Alf2 { get; set; }
+            public string Nacionalidade { get; set; }
+
+            public NacionalidadeItem(string nacionalidade, string alf2, int idNacionalidade)
+            {
+                IdNacionalidade = idNacionalidade;
+                Alf2 = alf2;
+                Nacionalidade = nacionalidade;
+            }
+
+            public override string ToString()
+            {
+                return $"{Nacionalidade}-{Alf2}-{IdNacionalidade} ";
             }
         }
 

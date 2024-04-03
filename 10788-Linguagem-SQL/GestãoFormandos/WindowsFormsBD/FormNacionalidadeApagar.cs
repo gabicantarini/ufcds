@@ -28,7 +28,7 @@ namespace WindowsFormsBD
         }
         private void ApagarNacionalidade_Load(object sender, EventArgs e)
         {
-            ligacao.PreencherComboNacionalidade(ref cmbNacionalidade);
+            ligacao.PreenchercomboNacionalidade(ref cmbNacionalidade);
             txtALF2.ReadOnly = true;
             txtNacionalidade.ReadOnly = true;
 
@@ -86,7 +86,7 @@ namespace WindowsFormsBD
 
         private void carrega_combobox()
         {
-            ligacao.InsertNacionalidade(txtALF2.Text, txtNacionalidade.Text);
+            ligacao.InsertNacionalidade(idNacionalidade.Text, txtALF2.Text, txtNacionalidade.Text);
             groupBox3.Enabled = false;
             btnEliminar.Enabled = false;
         }
@@ -100,10 +100,11 @@ namespace WindowsFormsBD
                     MessageBox.Show("Eliminou o registo com sucesso.");
                     cmbNacionalidade.Text = "";
                     cmbNacionalidade.Items.Clear();
-                    ligacao.PreencherComboNacionalidade(ref cmbNacionalidade);
+                    ligacao.PreenchercomboNacionalidade(ref cmbNacionalidade);
                     Limpar();
                 }
                 else
+
                 {
                     MessageBox.Show("Erro na eliminação do registo.");
                 }

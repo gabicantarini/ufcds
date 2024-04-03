@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static WindowsFormsBD.DBConnect;
 
 namespace WindowsFormsBD
 {
@@ -20,110 +21,89 @@ namespace WindowsFormsBD
 
         private void FormApagarNacionalidade_Load(object sender, EventArgs e)
         {
-            //groupBox1.Enabled = false;
-            txtNome.ReadOnly = true;
-            txtMorada.ReadOnly = true;
-            mtxtContacto.ReadOnly = true;
-            mtxtIBAN.ReadOnly = true;
-            rbFeminino.Enabled = false;
-            rbMasculino.Enabled = false;
-            rbOutro.Enabled = false;
-            mtxtDataNascimento.ReadOnly = true;
-            dateTimePicker1.Visible = false;
-
-            btnEliminar.Enabled = false;
-
-            this.AcceptButton = this.btnPesquisa;
+            carrega_combobox();
 
         }
 
-        private void btnPesquisa_Click(object sender, EventArgs e)
+        private void FormAtualizarNacionalidade_Load(object sender, EventArgs e)
         {
-
+            carrega_combobox();
         }
 
-        private void Limpar()
+        private void cmbNacionalidade_SelectedIndexChanged(object sender, EventArgs e)
         {
-            nudID.Value = 0;
-            txtNome.Text = string.Empty;
-            txtMorada.Text = "";
-            mtxtContacto.Clear();
-            mtxtIBAN.Text = string.Empty;
-            rbFeminino.Checked = false;
-            rbMasculino.Checked = false;
-            rbOutro.Checked = false;
-            //dateTimePicker1.Value = DateTime.Now;
-            mtxtDataNascimento.Clear();
+            string ALF2 = "", Nacionalidade = "", ID_nacionalidade = Ultimapalavra();
+
+            ligacao.PesquisaNacionalidade(ID_nacionalidade, ref ALF2, ref Nacionalidade);
+
+            txtALF2.Text = ALF2;
+            txtNacionalidade.Text = Nacionalidade;
+            btnAtualizar.Enabled = true;
+            groupBox3.Enabled = true;
         }
 
-
-        private void btnPesquisa_Click_1(object sender, EventArgs e)
+        private void btnAtualizar_Click(object sender, EventArgs e)
         {
-            string nome = "", morada = "", nacionalidade = "", contacto = "", iban = "", data_nascimento = "";
-            char genero = ' ';
-
-            if (ligacao.PesquisaFormando(nudID.Value.ToString(), ref nome, ref morada, ref nacionalidade, ref contacto,
-                ref iban, ref genero, ref data_nascimento))
+            if (VerificarCampos())
             {
-                txtNome.Text = nome;
-                txtMorada.Text = morada;
-                txtMorada.Text = nacionalidade;
-                mtxtContacto.Text = contacto;
-                mtxtIBAN.Text = iban;
-                if (genero == 'F')
+                if (ligacao.UpdateNacionalidade(Ultimapalavra(), txtALF2.Text, txtNacionalidade.Text))
                 {
-                    rbFeminino.Checked = true;
-                }
-                else if (genero == 'M')
-                {
-                    rbMasculino.Checked = true;
-                }
-                else if (genero == 'O')
-                {
-                    rbOutro.Checked = true;
-                }
-                mtxtDataNascimento.Text = data_nascimento;
+                    MessageBox.Show("Atualizado com sucesso!");
 
-
-                btnEliminar.Enabled = true;
-
-                txtNome.ReadOnly = true;
-                txtMorada.ReadOnly = true;
-                mtxtContacto.ReadOnly = true;
-                mtxtIBAN.ReadOnly = true;
-                rbFeminino.Enabled = false;
-                rbMasculino.Enabled = false;
-                rbOutro.Enabled = false;
-                mtxtDataNascimento.ReadOnly = true;
-
-            }
-            else
-            {
-                MessageBox.Show("Formando não encontrado!");
-                Limpar();
-            }
-        }
-
-        private void btnEliminar_Click_1(object sender, EventArgs e)
-        {
-            if (MessageBox.Show("Deseja eliminar o registo ID " + nudID.Value.ToString(), "Eliminar",
-               MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
-            {
-                if (ligacao.Delete(nudID.Value.ToString()))
-                {
-                    MessageBox.Show("Registo eliminado!");
-                    btnCancelar_Click(sender, e);
+                    cmbNacionalidade.Items.Clear();
+                    carrega_combobox();
+                    txtALF2.Text = "";
+                    txtNacionalidade.Text = "";
                 }
                 else
                 {
-                    MessageBox.Show("Não foi possível eliminar o registo!");
+                    MessageBox.Show("Erro na actualização da Nacionaliade!");
                 }
+
+
             }
+        }
+
+        private string Ultimapalavra()
+        {
+            // Recebe o item selecionado no ComboBox
+            NacionalidadeItem itemSelecionado = (NacionalidadeItem)cmbNacionalidade.SelectedItem;
+            // Dividindo a representação do item em uma matriz de palavras
+            string[] palavras = itemSelecionado.ToString().Split('-');
+            // Selecionando a última palavra
+            string ultimaPalavra = palavras[palavras.Length - 1].Trim();
+            return ultimaPalavra;
+        }
+
+        private bool VerificarCampos()
+        {
+
+            if (txtNacionalidade.Text.Length > 100)
+            {
+                MessageBox.Show("Erro: A nacionalidade deve conter até 100 carateres!");
+                txtNacionalidade.Focus();
+                return false;
+            }
+
+            if (txtALF2.Text.Length != 2)
+            {
+                MessageBox.Show("Erro no campo ALF2 tem de colcar 2 caracteres pelo menos!");
+                txtALF2.Focus();
+                return false;
+            }
+            return true;
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void carrega_combobox()
+        {
+            ligacao.PreenchercomboNacionalidade(ref cmbNacionalidade);
+            groupBox3.Enabled = false;
+            btnAtualizar.Enabled = false;
         }
     }
 }

@@ -39,7 +39,7 @@ namespace WindowsFormsBD
             dataGridView1.Columns.Add("nacionalidade", "Nacionalidade");
             dataGridView1.Columns.Add("Genero", "Genero");
 
-            ligacao.PreencherDataGriedViewFormandos(ref dataGridView1, Genero(), "", "");
+            ligacao.PreencherDataGriedViewFormandos(ref dataGridView1, Genero(), "");
 
             //ligacao.PreencherComboNacionalidade(ref cmbNacionalidade);
 
@@ -61,7 +61,7 @@ namespace WindowsFormsBD
             }
             txtNome.Text = Geral.TirarEspacos(txtNome.Text);
 
-            ligacao.PreencherDataGriedViewFormandos(ref dataGridView1, Genero(), txtNome.Text, id_nacionalidade);
+            ligacao.PreencherDataGriedViewFormandos(ref dataGridView1, Genero(), txtNome.Text);
 
             lblRegistos.Text = "Nº Registos: " + dataGridView1.RowCount.ToString();
         }
